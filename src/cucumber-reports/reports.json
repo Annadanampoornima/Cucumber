@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T10:08:54.240Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5109794900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3925146900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseStudyLogindef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4912527800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseStudyAddtoproductdef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10364919800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterPagedef.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "testmeapp-feature;login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 25600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2151896500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ":url of the TestmeApp",
+            "match": {
+              "location": "CaseStudyLogindef.url_of_the_TestmeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1797591900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": user enters the data for LoginPage",
+            "match": {
+              "location": "CaseStudyLogindef.user_enters_the_data_for_LoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ":user is Login successfully",
+            "match": {
+              "location": "CaseStudyLogindef.user_is_Login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestmeApp Feature",
+    "description": "",
+    "id": "testmeapp-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/CaseStudy.feature",
+    "tags": []
+  }
+]

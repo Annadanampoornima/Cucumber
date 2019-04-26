@@ -18,6 +18,9 @@ formatter.before({
 formatter.before({
   "status": "passed"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": ":url of the TestmeApp",
   "keyword": "Given "

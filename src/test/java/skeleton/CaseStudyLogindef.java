@@ -44,6 +44,7 @@ public class CaseStudyLogindef {
 	    CaseStudyLogin.brand.sendKeys("abc");
 	    CaseStudyLogin.description.sendKeys("asjedhfnchgrgegfrt3");
 	    CaseStudyLogin.fileupload.click();
+	    CaseStudyLogin.addproduct1.click();
 	}
 
 	@Then(":user is Login successfully")

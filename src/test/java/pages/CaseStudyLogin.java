@@ -15,7 +15,7 @@ public class CaseStudyLogin {
 	public static WebElement addproduct;
 	@FindBy(how=How.CSS,using="option[value='11290']")
 	public static WebElement categoryname;
-	@FindBy(how=How.CSS,using="option[value='112112']")
+	@FindBy(how=How.CSS,using="option[value='112101']")
 	public static WebElement subcategoryname;
 	@FindBy(how=How.ID,using="prodid")
 	public static WebElement productname;
@@ -29,7 +29,8 @@ public class CaseStudyLogin {
 	public static WebElement description;
 	@FindBy(how=How.CSS,using="input[class='form-control image-preview-filename']")
 	public static WebElement fileupload;
+	@FindBy(how=How.CSS,using="input[name='Add Product']")
+	public static WebElement addproduct1;
 }
-
 
 
